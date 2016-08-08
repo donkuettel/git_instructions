@@ -1,15 +1,16 @@
-% Creating Repository (needs to be in a folder)
-echo "# NAME OF REPOSITORY" >> README.md
+% Creating Repository (must be in desired directory)
+-FIRST you must create repository on github.com
+touch README.txt
 git init
-git add README.md
+git add README.txt
 git commit -m "first commit"
 git remote add origin https://github.com/donkuettel/NAME OF REPOSITORY.git
-git push -u origin master
+git push origin master
 
 % Checking Repository
 git status
 
 % Updating your repository
-git add *
+git add * (star adds all files)
 git commit -m "YOUR MESSAGE HERE"
 git push origin master
