@@ -1,8 +1,8 @@
 % Creating Repository (must be in desired directory)
 -FIRST you must create repository on github.com
-touch README.txt
+touch README.md
 git init
-git add README.txt
+git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/donkuettel/NAME OF REPOSITORY.git
 git push origin master
